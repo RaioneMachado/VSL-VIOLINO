@@ -58,11 +58,14 @@ const Index = () => {
           </section>
 
           {/* CTA to Testimonials */}
-          <section className="text-center mb-20">
-            <CTAButton href="#depoimentos" size="xl">
-              Ver Depoimentos dos Clientes
-            </CTAButton>
-          </section>
+<section className="text-center mb-20">
+  <a href="#depoimentos">
+    <CTAButton size="xl">
+      Ver Depoimentos dos Clientes
+    </CTAButton>
+  </a>
+</section>
+
 
           {/* Social Proof */}
           <section id="depoimentos" className="mb-20 scroll-mt-32">
@@ -133,18 +136,22 @@ const Index = () => {
           </section>
 
           {/* Benefits Section */}
-          <section className="mb-20 bg-card/30 backdrop-blur-sm border border-primary/20 rounded-3xl p-8 md:p-12 glow-blue">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-8 font-display">
-              Chega de <span className="text-primary glow-text-blue">partituras impressas</span> e playbacks separados!
-            </h2>
-            <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              <span className="font-bold text-foreground">Todo material na palma da mão</span> - é só dar play e sair tocando!
-            </p>
-            
-            <CTAButton href="#preco" size="lg">
-              Quero Ter Acesso Agora!
-            </CTAButton>
-          </section>
+<section className="mb-20 bg-card/30 backdrop-blur-sm border border-primary/20 rounded-3xl p-8 md:p-12 glow-blue">
+  <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-8 font-display">
+    Chega de <span className="text-primary glow-text-blue">partituras impressas</span> e playbacks separados!
+  </h2>
+
+  <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+    <span className="font-bold text-foreground">Todo material na palma da mão</span> - é só dar play e sair tocando!
+  </p>
+
+  <a href="#preco">
+    <CTAButton size="lg">
+      Quero Ter Acesso Agora!
+    </CTAButton>
+  </a>
+</section>
+
 
           {/* Video Examples Section */}
           <section className="mb-20">
