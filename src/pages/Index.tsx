@@ -1,4 +1,4 @@
-import { CountdownTimer } from "@/components/CountdownTimer";
+
 import { VideoSection } from "@/components/VideoSection";
 import { FeatureCard } from "@/components/FeatureCard";
 import { CTAButton } from "@/components/CTAButton";
@@ -25,11 +25,8 @@ const Index = () => {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[150px]" />
       </div>
 
-      {/* Countdown Timer */}
-      <CountdownTimer />
-
       {/* Main Content */}
-      <div className="relative z-10 pt-24 md:pt-32 pb-20">
+      <div className="relative z-10 pt-20 pb-20">
         <div className="container mx-auto px-4">
           {/* Hero Section */}
           <section className="text-center mb-20 animate-fade-in">
@@ -41,14 +38,13 @@ const Index = () => {
             </div>
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight font-display">
-              Tenha acesso agora mesmo à{" "}
-              <span className="text-primary glow-text-blue">maior plataforma</span> de
-              <br />
-              <span className="text-primary glow-text-blue">VÍDEO PARTITURAS</span> para saxofone da internet!
+              A <span className="text-primary glow-text-blue">maior plataforma</span> de{" "}
+              <span className="text-primary glow-text-blue">VÍDEO PARTITURAS</span> para saxofone!
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Vídeo partituras com produções próprias e de qualidade premium!
+              <span className="font-bold text-foreground">Produções próprias</span> em{" "}
+              <span className="font-bold text-foreground">qualidade premium!</span>
             </p>
           </section>
 
@@ -56,8 +52,8 @@ const Index = () => {
           <section className="mb-12">
             <VideoSection
               videoId="qMOaQcg3RRU"
-              title="Assista ao vídeo e descubra como revolucionar sua forma de tocar!"
-              description="Veja como nossas vídeo partituras premium vão transformar suas apresentações musicais."
+              title="Veja como funciona!"
+              description="Descubra a praticidade das vídeo partituras premium."
             />
           </section>
 
@@ -71,12 +67,10 @@ const Index = () => {
           {/* Social Proof */}
           <section id="depoimentos" className="mb-20 scroll-mt-32">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-4 font-display">
-              Veja o que nossos clientes estão dizendo sobre
-              <br />
-              <span className="text-primary glow-text-blue">nossas vídeo partituras premium!</span>
+              O que nossos <span className="text-primary glow-text-blue">clientes dizem</span>
             </h2>
             <p className="text-center text-muted-foreground mb-12 text-lg">
-              Centenas de saxofonistas já transformaram suas apresentações
+              <span className="font-bold text-foreground">Centenas de saxofonistas</span> já transformaram suas apresentações
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -100,43 +94,40 @@ const Index = () => {
           {/* Features Section */}
           <section className="mb-20">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-4 font-display">
-              Produções próprias com{" "}
-              <span className="text-primary glow-text-blue">qualidade premium</span>
+              <span className="text-primary glow-text-blue">Qualidade premium</span> que você{" "}
+              <span className="font-bold">não encontra no YouTube</span>
             </h2>
-            <p className="text-center text-muted-foreground mb-12 text-lg">
-              Você não encontra este material no YouTube!
-            </p>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               <FeatureCard
                 icon={Music}
                 title="Mais de 200 temas"
-                description="Um acervo completo com mais de 200 músicas de diversos estilos para você tocar."
+                description="Acervo completo com músicas de diversos estilos."
               />
               <FeatureCard
                 icon={TrendingUp}
                 title="Plataforma Exclusiva"
-                description="Material organizado em pastas separadas com nome de cada música. Economize seu tempo!"
+                description="Material organizado em pastas. Economize tempo!"
               />
               <FeatureCard
                 icon={Download}
                 title="Download Ilimitado"
-                description="Vídeos no formato mp4 de alta qualidade no Google Drive. Baixe tudo e use sem internet!"
+                description="Vídeos em mp4 de alta qualidade. Use sem internet!"
               />
               <FeatureCard
                 icon={Clock}
                 title="Acesso Imediato"
-                description="Receba o acesso instantaneamente após a confirmação do pagamento."
+                description="Acesso instantâneo após confirmação do pagamento."
               />
               <FeatureCard
                 icon={Shield}
                 title="7 Dias de Garantia"
-                description="Garantia incondicional. Se não gostar, devolvemos seu dinheiro em até 7 dias."
+                description="Não gostou? Devolvemos seu dinheiro!"
               />
               <FeatureCard
                 icon={Star}
                 title="Qualidade Premium"
-                description="Produções profissionais com playbacks de alta qualidade e partituras impecáveis."
+                description="Playbacks profissionais e partituras impecáveis."
               />
             </div>
           </section>
@@ -144,11 +135,10 @@ const Index = () => {
           {/* Benefits Section */}
           <section className="mb-20 bg-card/30 backdrop-blur-sm border border-primary/20 rounded-3xl p-8 md:p-12 glow-blue">
             <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-8 font-display">
-              Imagine você tocando sem precisar usar partituras impressas e playbacks mp3
+              Chega de <span className="text-primary glow-text-blue">partituras impressas</span> e playbacks separados!
             </h2>
             <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Todo material na palma da sua mão, é dar play e sair tocando, este é melhor formato que existe,
-              é o que há de melhor em praticidade e facilidade!
+              <span className="font-bold text-foreground">Todo material na palma da mão</span> - é só dar play e sair tocando!
             </p>
             
             <CTAButton href="#preco" size="lg">
@@ -159,34 +149,33 @@ const Index = () => {
           {/* Video Examples Section */}
           <section className="mb-20">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-12 font-display">
-              Olha só alguns <span className="text-primary glow-text-blue">exemplos</span> que você vai receber!
+              Veja alguns <span className="text-primary glow-text-blue">exemplos</span>
             </h2>
 
             <div className="space-y-16">
               <VideoSection
                 videoId="ho6kZjBszIU"
                 title="Menina Veneno - Ritchie"
-                description="Que tal começar com o clássico Menina Veneno? O solo de sax icônico dessa música vai fazer você reviver um dos maiores hits da música brasileira. Temos também, Uma Brasileira, dos Paralamas do Sucesso, traz aquela vibe contagiante que é impossível não amar. E esses são só alguns dos vários temas nacionais que você encontrará: pop, rock, MPB, bossa e muito mais!"
+                description="Clássico solo de sax! Temos também pop, rock, MPB, bossa e muito mais!"
               />
 
               <VideoSection
                 videoId="_eBWSJa0Mog"
                 title="Vivir Sin Aire - Maná"
-                description="Internacionais? Claro que sim! Se você é fã de hits latinos, vai adorar Vivir Sin Aire, um sucesso absoluto da banda Maná – perfeito para tocar e emocionar."
+                description="Hits latinos! Sucesso da banda Maná, perfeito para emocionar."
               />
 
               <VideoSection
                 videoId="uYG7VA-kxMI"
                 title="Your Love - The Outfield"
-                description="E para os apaixonados por rock, confira o clássico Your Love! Preste atenção na qualidade impecável dos playbacks e das partituras que compõem nossas vídeo partituras, tudo em qualidade premium, para elevar sua performance!"
+                description="Rock clássico! Note a qualidade premium dos playbacks e partituras."
               />
             </div>
 
             <div className="text-center mt-16">
               <p className="text-2xl md:text-3xl font-bold text-foreground mb-8 font-display">
-                E isso é só o começo! Com mais de 200 temas em diversos estilos, nossas{" "}
-                <span className="text-primary glow-text-blue">Vídeo Partituras Premium</span> oferecem tudo o que você
-                precisa para suas apresentações, sem perder tempo e com a qualidade que você merece.
+                E isso é só o começo! <span className="text-primary glow-text-blue">Mais de 200 temas</span> em diversos estilos
+                esperando por você!
               </p>
             </div>
           </section>
@@ -198,13 +187,11 @@ const Index = () => {
                 <Shield className="w-16 h-16 text-accent" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 font-display">
-                Compra 100% Segura e 7 Dias de Garantia!
+                <span className="text-accent">100% Seguro</span> com 7 Dias de Garantia!
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl leading-relaxed">
-                Cuidado com golpes na internet, aqui nosso trabalho é sério! Somos uma equipe de músicos trabalhando
-                para que você tenha as melhores vídeo partituras para usar em suas apresentações! É por isso que temos
-                uma garantia de 7 dias. Se nosso material não atender as suas expectativas, você pode solicitar o
-                reembolso. Nosso compromisso é que você fique satisfeito com o que está sendo entregue!
+                <span className="font-bold text-foreground">Somos uma equipe de músicos</span> trabalhando com seriedade!{" "}
+                <span className="font-bold text-foreground">7 dias de garantia:</span> não gostou? Devolvemos seu dinheiro!
               </p>
             </div>
           </section>
@@ -270,7 +257,7 @@ const Index = () => {
           {/* FAQ Section */}
           <section className="mb-20">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-12 font-display">
-              Dúvidas <span className="text-primary glow-text-blue">Frequentes</span>
+              Perguntas <span className="text-primary glow-text-blue">Frequentes</span>
             </h2>
 
             <div className="max-w-3xl mx-auto bg-card/30 backdrop-blur-sm border border-primary/20 rounded-2xl p-6 md:p-8">
