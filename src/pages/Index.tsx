@@ -38,12 +38,13 @@ const Index = () => {
             </div>
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight font-display">
-              A <span className="text-primary glow-text-blue">maior plataforma</span> de{" "}
+              O <span className="text-primary glow-text-blue">maior material</span> de{" "}
               <span className="text-primary glow-text-blue">VÍDEO PARTITURAS</span> para saxofone!
             </h1>
             
+            
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              <span className="font-bold text-foreground">Produções próprias</span> em{" "}
+              <span className="font-bold text-foreground">ÚLTIMO DIA DE PROMOÇÃO! APROVEITE...</span> em{" "}
               <span className="font-bold text-foreground">qualidade premium!</span>
             </p>
           </section>
