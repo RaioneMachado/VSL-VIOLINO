@@ -91,12 +91,24 @@ const Index = () => {
                 title="Download Ilimitado"
                 description="Vídeos em mp4 de alta qualidade. Use sem internet!"
               />
-              <FeatureCard
-                icon={Shield}
-                title="7 Dias de Garantia"
-                description="Não gostou? Devolvemos seu dinheiro!"
-              />
             </div>
+          </section>
+
+          {/* Benefits Section */}
+          <section className="mb-20 bg-card/30 backdrop-blur-sm border border-primary/20 rounded-3xl p-8 md:p-12 glow-blue">
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-8 font-display">
+              Chega de <span className="text-primary glow-text-blue">partituras impressas</span> e playbacks separados!
+            </h2>
+
+            <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+              <span className="font-bold text-foreground">Todo material na palma da mão</span> - é só dar play e sair tocando!
+            </p>
+
+            <a href="#preco">
+              <CTAButton size="lg">
+                Quero Ter Acesso Agora!
+              </CTAButton>
+            </a>
           </section>
 
           {/* Video Examples Section */}
@@ -125,11 +137,8 @@ const Index = () => {
               />
             </div>
 
-            <div className="text-center mt-16">
-              <p className="text-2xl md:text-3xl font-bold text-foreground mb-8 font-display">
-                E isso é só o começo! <span className="text-primary glow-text-blue">Mais de 200 temas</span> em diversos estilos
-                esperando por você!
-              </p>
+            <div className="text-center mt-8">
+              {/* Espaço reduzido conforme solicitado */}
             </div>
           </section>
 
@@ -158,23 +167,6 @@ const Index = () => {
                 />
               </div>
             </div>
-          </section>
-
-          {/* Benefits Section */}
-          <section className="mb-20 bg-card/30 backdrop-blur-sm border border-primary/20 rounded-3xl p-8 md:p-12 glow-blue">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-8 font-display">
-              Chega de <span className="text-primary glow-text-blue">partituras impressas</span> e playbacks separados!
-            </h2>
-
-            <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              <span className="font-bold text-foreground">Todo material na palma da mão</span> - é só dar play e sair tocando!
-            </p>
-
-            <a href="#preco">
-              <CTAButton size="lg">
-                Quero Ter Acesso Agora!
-              </CTAButton>
-            </a>
           </section>
 
           {/* Guarantee Section */}
