@@ -121,18 +121,21 @@ const Index = () => {
               <VideoSection
                 videoId="ho6kZjBszIU"
                 title="Menina Veneno - Ritchie"
+                titleClassName="text-primary glow-text-blue"
                 description="Clássico solo de sax! Temos também pop, rock, MPB, bossa e muito mais!"
               />
 
               <VideoSection
                 videoId="_eBWSJa0Mog"
                 title="Vivir Sin Aire - Maná"
+                titleClassName="text-primary glow-text-blue"
                 description="Hits latinos! Sucesso da banda Maná, perfeito para emocionar."
               />
 
               <VideoSection
                 videoId="uYG7VA-kxMI"
                 title="Your Love - The Outfield"
+                titleClassName="text-primary glow-text-blue"
                 description="Rock clássico! Note a qualidade premium dos playbacks e partituras."
               />
             </div>
