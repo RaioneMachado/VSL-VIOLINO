@@ -28,7 +28,7 @@ const Index = () => {
       <div className="relative z-10 pt-16 pb-20">
         <div className="container mx-auto px-4">
           {/* Hero Section */}
-          <section className="text-center mb-8 animate-fade-in">
+          <section className="text-center mb-4 animate-fade-in">
             <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-4 py-2 mb-4">
               <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
               <span className="text-sm text-foreground font-semibold">
@@ -41,7 +41,7 @@ const Index = () => {
               <span className="text-primary glow-text-blue">VÍDEO PARTITURAS</span> para saxofone!
             </h1>
             
-            <p className="text-lg md:text-xl text-muted-foreground mb-6 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-muted-foreground mb-4 max-w-3xl mx-auto">
               <span className="font-bold text-foreground">ÚLTIMO DIA DE PROMOÇÃO! APROVEITE...</span> {" "}
               <span className="font-bold text-foreground">qualidade premium!</span>
             </p>
@@ -55,7 +55,6 @@ const Index = () => {
               </h3>
               <VideoSection
                 videoId="qMOaQcg3RRU"
-                description="Descubra a praticidade das vídeo partituras premium."
               />
             </div>
           </section>
