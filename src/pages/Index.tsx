@@ -41,16 +41,16 @@ const Index = () => {
               <span className="text-primary glow-text-blue">VÍDEO PARTITURAS</span> para saxofone!
             </h1>
             
-            <p className="text-lg md:text-xl text-muted-foreground mb-4 max-w-3xl mx-auto">
-              <span className="font-bold text-foreground">ÚLTIMO DIA DE PROMOÇÃO! APROVEITE...</span> {" "}
-              <span className="font-bold text-foreground">qualidade premium!</span>
+            <p className="text-lg md:text-xl text-accent mb-4 max-w-3xl mx-auto">
+              <span className="font-bold">ÚLTIMO DIA DE PROMOÇÃO! APROVEITE...</span> {" "}
+              <span className="font-bold">qualidade premium!</span>
             </p>
           </section>
 
           {/* Main Video Section */}
           <section className="mb-16 flex justify-center">
             <div className="w-full max-w-4xl text-center">
-              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4 font-display">
+              <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
                 Veja como funciona!
               </h3>
               <VideoSection
