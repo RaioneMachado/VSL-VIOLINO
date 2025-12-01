@@ -248,7 +248,7 @@ const Index = () => {
                 </div>
               </div>
 
-              <CTAButton href="https://pay.kirvano.com/47ff8107-0a82-424c-b105-808cfe984da3" size="xl">
+              <CTAButton href="https://pay.kirvano.com/bfaf5f55-ad26-4215-a683-53327f20c71b" size="xl">
                 Quero Aproveitar Esta Oferta!
               </CTAButton>
 
