@@ -111,30 +111,30 @@ const Index = () => {
             <div className="space-y-16">
               <div className="text-center">
                 <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
-                  Canon in D - Pachelbel
+                  Canon in D Violin Flute Sheet Music Backing Track Play Along
                 </h3>
                 <VideoSection
-                  videoId="ho6kZjBszIU"
+                  videoId="DV6NjgTrqsw"
                   description="Clássico para violino! Temos também música erudita, popular, folclórica e muito mais!"
                 />
               </div>
 
               <div className="text-center">
                 <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
-                  Por una Cabeza - Carlos Gardel
+                  Hallelujah Violin Sheet Music
                 </h3>
                 <VideoSection
-                  videoId="_eBWSJa0Mog"
+                  videoId="5aJXBiYMHps"
                   description="Clássico tango! Perfeito para apresentações elegantes e emocionantes."
                 />
               </div>
 
               <div className="text-center">
                 <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
-                  Vivaldi - Spring
+                  Photograph Partitura
                 </h3>
                 <VideoSection
-                  videoId="uYG7VA-kxMI"
+                  videoId="nDklQjCFxJE"
                   description="Música erudita! Note a qualidade premium dos playbacks e partituras."
                 />
               </div>
