@@ -53,9 +53,15 @@ const Index = () => {
               <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
                 Veja como funciona!
               </h3>
-              <VideoSection
-                videoId="qMOaQcg3RRU"
-              />
+              <div className="aspect-video w-full overflow-hidden rounded-2xl">
+                <iframe
+                  src="https://player-vz-03224ce4-c55.tv.pandavideo.com.br/embed/?v=1d9e6102-a94d-4f44-ad66-98ae1e5851d8"
+                  className="w-full h-full border-0"
+                  allowFullScreen
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  title="Vídeo Partituras Premium"
+                />
+              </div>
             </div>
           </section>
 
