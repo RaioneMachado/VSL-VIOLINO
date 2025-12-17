@@ -160,7 +160,7 @@ const Index = () => {
               </div>
               <div className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-2xl p-6 glow-blue">
                 <img
-                  src="/depoimento 2"
+                  src="/src/depoimento 2"
                   alt="Depoimento de cliente"
                   className="w-full rounded-lg"
                 />
