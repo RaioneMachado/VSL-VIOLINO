@@ -158,12 +158,12 @@ const Index = () => {
                   className="w-full rounded-lg"
                 />
               </div>
-              <div className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-2xl p-6 glow-blue">
-                <img
-                  src="/src/depoimento 2"
-                  alt="Depoimento de cliente"
-                  className="w-full rounded-lg"
-                />
+           <img
+  src="/depoimento-2.jpg"
+  alt="Depoimento de cliente"
+  className="w-full rounded-lg"
+/>
+
               </div>
             </div>
           </section>
