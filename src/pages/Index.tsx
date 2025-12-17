@@ -52,7 +52,7 @@ const Index = () => {
           <section className="mb-16 flex justify-center">
             <div className="w-full max-w-4xl text-center">
               <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
-                Veja como funciona para violino e instrumentos em C!
+                Veja como funciona!
               </h3>
               <div className="aspect-video w-full overflow-hidden rounded-2xl">
                 <iframe
