@@ -12,9 +12,6 @@ import {
   CheckCircle,
   TrendingUp,
   Users,
-  Violin,
-  Guitar,
-  Piano,
 } from "lucide-react";
 
 const Index = () => {
@@ -35,47 +32,27 @@ const Index = () => {
             <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-4 py-2 mb-4">
               <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
               <span className="text-sm text-foreground font-semibold">
-                🎻 97 violinistas já adquiriram hoje!
+                🟢 97 músicos estão sendo redirecionados!
               </span>
             </div>
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-4 leading-tight font-display">
-              O <span className="text-primary glow-text-blue">maior acervo</span> de{" "}
-              <span className="text-primary glow-text-blue">VÍDEO PARTITURAS</span> para{" "}
-              <span className="text-accent glow-text-blue">VIOLINO & INSTRUMENTOS EM C</span>!
+              O <span className="text-primary glow-text-blue">maior material</span> de{" "}
+              <span className="text-primary glow-text-blue">VÍDEO PARTITURAS</span> para violino{" "}
+              <span className="text-primary glow-text-blue">& instrumentos em C</span>!
             </h1>
             
             <p className="text-lg md:text-xl text-accent mb-4 max-w-3xl mx-auto">
-              <span className="font-bold">HOJE: ACESSO COMPLETO + 200 MÚSICAS EXTRAS!</span> {" "}
-              <span className="font-bold">Perfeito para violino, flauta, oboé e todos os instrumentos em Dó!</span>
+              <span className="font-bold">ÚLTIMO DIA DE PROMOÇÃO! COMPRANDO HOJE, VOCÊ RECEBERÁ MAIS 200 PARTITURAS EM VÍDEOS DE BRINDE...</span> {" "}
+              <span className="font-bold">qualidade premium para violino, flauta, piano e mais!</span>
             </p>
-            
-            {/* Instrument Icons */}
-            <div className="flex justify-center items-center gap-6 mt-6 mb-4">
-              <div className="flex flex-col items-center gap-2">
-                <Violin className="w-10 h-10 text-primary" />
-                <span className="text-sm font-medium">Violino</span>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <Music className="w-10 h-10 text-primary" />
-                <span className="text-sm font-medium">Flauta</span>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <Guitar className="w-10 h-10 text-primary" />
-                <span className="text-sm font-medium">Violão</span>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <Piano className="w-10 h-10 text-primary" />
-                <span className="text-sm font-medium">Piano</span>
-              </div>
-            </div>
           </section>
 
           {/* Main Video Section */}
           <section className="mb-16 flex justify-center">
             <div className="w-full max-w-4xl text-center">
               <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
-                Veja como funciona para VIOLINO e instrumentos em Dó!
+                Veja como funciona para violino e instrumentos em C!
               </h3>
               <div className="aspect-video w-full overflow-hidden rounded-2xl">
                 <iframe
@@ -83,7 +60,7 @@ const Index = () => {
                   className="w-full h-full border-0"
                   allowFullScreen
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  title="Vídeo Partituras Premium para Violino"
+                  title="Vídeo Partituras Premium para Violino e Instrumentos em C"
                 />
               </div>
             </div>
@@ -92,113 +69,74 @@ const Index = () => {
           {/* Features Section */}
           <section className="mb-20">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-2 font-display">
-              <span className="text-primary glow-text-blue">Material específico</span> para{" "}
-              <span className="font-bold text-accent">VIOLINO</span> e instrumentos em <span className="font-bold text-accent">DÓ</span>
+              <span className="text-primary glow-text-blue">Qualidade premium</span> que você{" "}
+              <span className="font-bold">não encontra no YouTube</span>
             </h2>
-            <p className="text-center text-lg text-muted-foreground mb-8">
-              Todas as partituras já estão na afinação correta para seu instrumento!
-            </p>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mt-8">
-              <FeatureCard
-                icon={Violin}
-                title="Especial para Violino"
-                description="Partituras na afinação correta do violino (Sol-Ré-Lá-Mi)"
-              />
+            <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-4xl mx-auto mt-8">
               <FeatureCard
                 icon={Music}
-                title="Instrumentos em Dó"
-                description="Perfeito para flauta, piano, violão e todos os instrumentos em Dó"
+                title="Mais de 200 temas"
+                description="Acervo completo com músicas para violino, flauta, piano e instrumentos em C."
               />
               <FeatureCard
                 icon={TrendingUp}
-                title="Plataforma Organizada"
-                description="Material categorizado por estilo e dificuldade. Economize tempo!"
+                title="Plataforma Exclusiva"
+                description="Material organizado em pastas. Economize tempo!"
               />
               <FeatureCard
                 icon={Download}
                 title="Download Ilimitado"
                 description="Vídeos em mp4 de alta qualidade. Use sem internet!"
               />
-              <FeatureCard
-                icon={Clock}
-                title="Playbacks Prontos"
-                description="Já com timing perfeito. É só tocar junto!"
-              />
-              <FeatureCard
-                icon={Star}
-                title="+200 Músicas"
-                description="Acervo completo com clássicos, populares e muito mais!"
-              />
             </div>
           </section>
 
           {/* Benefits Section */}
           <section className="mb-20 bg-card/30 backdrop-blur-sm border border-primary/20 rounded-3xl p-8 md:p-12 glow-blue">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-6 font-display">
-              <span className="text-primary glow-text-blue">Especialmente desenvolvido</span> para{" "}
-              <span className="text-accent">VIOLINISTAS</span>!
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-8 font-display">
+              Chega de <span className="text-primary glow-text-blue">partituras impressas</span> e playbacks separados!
             </h2>
 
-            <div className="max-w-4xl mx-auto">
-              <p className="text-center text-lg md:text-xl text-muted-foreground mb-6">
-                <span className="font-bold text-foreground">Chega de adaptar partituras!</span> Nosso material já vem pronto para o violino e instrumentos em Dó.
-              </p>
-              
-              <div className="grid md:grid-cols-2 gap-6 mt-8">
-                <div className="bg-primary/10 p-4 rounded-xl">
-                  <h4 className="font-bold text-lg mb-2 flex items-center gap-2">
-                    <Violin className="w-5 h-5" /> Para Violino
-                  </h4>
-                  <p className="text-sm">Todas as músicas já estão na clave de Sol, com afinação e dedilhados ideais para violino.</p>
-                </div>
-                <div className="bg-accent/10 p-4 rounded-xl">
-                  <h4 className="font-bold text-lg mb-2 flex items-center gap-2">
-                    <Music className="w-5 h-5" /> Para Instrumentos em C
-                  </h4>
-                  <p className="text-sm">Perfeito para flauta, piano, violão, oboé e todos os instrumentos que leem em clave de Sol.</p>
-                </div>
-              </div>
-            </div>
+            <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+              <span className="font-bold text-foreground">Todo material para violino e instrumentos em C na palma da mão</span> - é só dar play e sair tocando!
+            </p>
           </section>
 
           {/* Video Examples Section */}
           <section className="mb-20">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-12 font-display">
-              Veja exemplos para <span className="text-primary glow-text-blue">VIOLINO</span>
+              Veja alguns <span className="text-primary glow-text-blue">exemplos para violino</span>
             </h2>
 
             <div className="space-y-16">
               <div className="text-center">
                 <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
-                  Canon in D - Violino
+                  Canon in D Violino
                 </h3>
-                <p className="text-muted-foreground mb-6">Clássico eterno já adaptado para violino!</p>
                 <VideoSection
                   videoId="DV6NjgTrqsw"
-                  description="Perfeito para apresentações e estudos. Note a clareza da partitura para violino!"
+                  description="Clássico para violino e instrumentos em C! Perfeito para estudos e apresentações."
                 />
               </div>
 
               <div className="text-center">
                 <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
-                  Hallelujah - Violino
+                  Hallelujah Violino
                 </h3>
-                <p className="text-muted-foreground mb-6">Emoção pura com arranjo especial para violino!</p>
                 <VideoSection
                   videoId="5aJXBiYMHps"
-                  description="Arranjo elegante e emocionante, ideal para violino solo."
+                  description="Clássico tango para violino! Ideal para violino, flauta e instrumentos em C."
                 />
               </div>
 
               <div className="text-center">
                 <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
-                  Photograph - Violino
+                  Photograph Violino
                 </h3>
-                <p className="text-muted-foreground mb-6">Sucesso internacional adaptado para violino!</p>
                 <VideoSection
                   videoId="nDklQjCFxJE"
-                  description="Note a qualidade premium dos playbacks e partituras específicas para violino."
+                  description="Perfeito para violino! Note a qualidade premium para instrumentos em C."
                 />
               </div>
             </div>
@@ -211,7 +149,7 @@ const Index = () => {
             </h2>
 
             <p className="text-center text-muted-foreground mb-12 text-lg">
-              <span className="font-bold text-foreground">Centenas de violinistas</span> já transformaram suas apresentações
+              <span className="font-bold text-foreground">Centenas de violinistas e músicos de instrumentos em C</span> já transformaram suas apresentações
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -243,8 +181,8 @@ const Index = () => {
                 <span className="text-accent">100% Seguro</span> com 7 Dias de Garantia!
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl leading-relaxed">
-                <span className="font-bold text-foreground">Desenvolvido por violinistas para violinistas!</span>{" "}
-                <span className="font-bold text-foreground">7 dias de garantia:</span> se não for perfeito para seu violino, devolvemos 100%!
+                <span className="font-bold text-foreground">Somos uma equipe de músicos</span> trabalhando com seriedade para violino e instrumentos em C!{" "}
+                <span className="font-bold text-foreground">7 dias de garantia:</span> não gostou? Devolvemos seu dinheiro!
               </p>
             </div>
           </section>
@@ -254,18 +192,13 @@ const Index = () => {
             <div className="text-center mb-8 animate-pulse">
               <div className="inline-block bg-gradient-to-r from-accent to-accent/80 rounded-2xl p-4 mb-4 glow-green shadow-2xl">
                 <p className="text-2xl md:text-3xl text-accent-foreground font-black mb-0 tracking-tight">
-                  ⚡ HOJE: ACESSO COMPLETO PARA VIOLINO! ⚡
+                  ⚡ SOMENTE HOJE VOCÊ TERÁ ACESSO AO DESCONTO PARA VIOLINO! ⚡
                 </p>
               </div>
             </div>
 
             <div className="max-w-2xl mx-auto bg-gradient-to-br from-accent/20 via-primary/20 to-accent/10 backdrop-blur-sm border-4 border-accent/50 rounded-3xl p-8 md:p-12 glow-green shadow-2xl animate-scale-in">
               <div className="text-center mb-8">
-                <div className="inline-flex items-center gap-2 mb-4">
-                  <Violin className="w-6 h-6 text-accent" />
-                  <span className="text-accent font-bold">ESPECIAL PARA VIOLINO</span>
-                </div>
-                
                 <p className="text-red-500 text-lg mb-2 line-through">
                   de R$ 197<span className="text-sm">,00</span>
                 </p>
@@ -278,57 +211,45 @@ const Index = () => {
                   </div>
                 </div>
                 <p className="text-sm text-muted-foreground uppercase tracking-wider">
-                  Pagamento único • Acesso vitalício
+                  Pagamento único • Acesso vitalício para violino e instrumentos em C
                 </p>
               </div>
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
-                  <p className="text-foreground">
-                    <span className="font-bold">Mais de 200 vídeo partituras</span> para violino e instrumentos em Dó
-                  </p>
+                  <p className="text-foreground">Mais de 200 vídeo partituras premium para violino</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
-                  <p className="text-foreground">
-                    <span className="font-bold">+200 músicas extras</span> incluídas hoje
-                  </p>
+                  <p className="text-foreground">Comprando hoje você receberá mais 200 de brindes em vídeos partituras para violino e instrumentos em C</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
-                  <p className="text-foreground">
-                    <span className="font-bold">Material específico para violino</span> - afinação correta
-                  </p>
+                  <p className="text-foreground">Download ilimitado em alta qualidade para violino</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
-                  <p className="text-foreground">Perfeito para flauta, piano, violão e todos instrumentos em Dó</p>
+                  <p className="text-foreground">Acesso vitalício ao material para violino e instrumentos em C</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
-                  <p className="text-foreground">Download ilimitado em alta qualidade</p>
+                  <p className="text-foreground">Garantia de 7 dias</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
-                  <p className="text-foreground">Acesso vitalício + Garantia de 7 dias</p>
+                  <p className="text-foreground">Suporte via WhatsApp para dúvidas sobre violino</p>
                 </div>
               </div>
 
               <div className="text-center">
                 <CTAButton href="https://pay.kirvano.com/41dff247-6962-426e-b53c-295bfd5b049d" size="xl">
-                  SIM, QUERO ACESSO PARA MEU VIOLINO!
+                  Clique Aqui e Aproveite a Oferta para Violino!
                 </CTAButton>
               </div>
 
-              <div className="mt-6 p-4 bg-primary/10 rounded-xl">
-                <p className="text-sm text-center text-foreground font-bold">
-                  🎻 <span className="text-accent">ESPECIAL VIOLINO:</span> Todas as partituras já estão na clave de Sol e afinação correta!
-                </p>
-              </div>
-
               <p className="text-sm text-center text-muted-foreground mt-4">
-                ✅ ACESSO IMEDIATO APÓS PAGAMENTO CONFIRMADO!
+                ✅ ACESSO IMEDIATO APÓS PAGAMENTO CONFIRMADO PARA VIOLINO E INSTRUMENTOS EM C!
               </p>
             </div>
           </section>
@@ -336,35 +257,35 @@ const Index = () => {
           {/* FAQ Section */}
           <section className="mb-20">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-12 font-display">
-              Dúvidas sobre <span className="text-primary glow-text-blue">VIOLINO</span>?
+              Perguntas <span className="text-primary glow-text-blue">Frequentes sobre Violino</span>
             </h2>
 
             <div className="max-w-3xl mx-auto bg-card/30 backdrop-blur-sm border border-primary/20 rounded-2xl p-6 md:p-8">
               <Accordion type="single" collapsible className="space-y-4">
                 <FAQItem
                   value="item-1"
-                  question="1) As partituras são específicas para violino?"
-                  answer="SIM! Todas as partituras estão na clave de Sol, com afinação Sol-Ré-Lá-Mi e dedilhados ideais para violino. Perfeitas também para flauta, piano e todos os instrumentos em Dó."
-                />
-                <FAQItem
-                  value="item-2"
-                  question="2) Como vou receber as vídeo partituras?"
+                  question="1) Como vou receber as vídeo partituras para violino?"
                   answer="Você vai receber o acesso à plataforma no e-mail inserido no ato da compra."
                 />
                 <FAQItem
-                  value="item-3"
-                  question="3) Posso baixar as vídeo partituras?"
-                  answer="Sim. Você pode baixar todas as vídeo partituras no seu celular, computador ou tablet. Podendo usar sem acesso à internet."
+                  value="item-2"
+                  question="2) Posso baixar as vídeo partituras para violino?"
+                  answer="Sim. Você pode baixar todas as vídeo partituras para violino no seu celular, computador ou tablet. Podendo usar sem acesso à internet."
                 />
                 <FAQItem
-                  value="item-4"
-                  question="4) Após a compra, em quanto tempo recebo o acesso ao material?"
+                  value="item-3"
+                  question="3) Após a compra, em quanto tempo recebo o acesso ao material para violino?"
                   answer="Após confirmado o pagamento o acesso é imediato."
                 />
                 <FAQItem
+                  value="item-4"
+                  question="4) Posso inserir meus dados sem nenhum problema?"
+                  answer="Sim, a plataforma de pagamento é 100% SEGURA e criptografada!"
+                />
+                <FAQItem
                   value="item-5"
-                  question="5) Funciona para outros instrumentos além do violino?"
-                  answer="Sim! O material é perfeito para todos os instrumentos que leem em clave de Sol: flauta, piano, violão, oboé, clarinete (na afinação padrão) e muito mais!"
+                  question="5) Em qual local ficam localizadas as vídeo partituras para violino?"
+                  answer="No Google Drive, com pastas organizadas pelo nome de cada música, onde você poderá baixá-las."
                 />
               </Accordion>
             </div>
@@ -376,15 +297,9 @@ const Index = () => {
       {/* Footer */}
       <footer className="relative z-10 border-t border-primary/20 py-8 bg-card/30 backdrop-blur-sm">
         <div className="container mx-auto px-4 text-center">
-          <div className="flex flex-col items-center gap-4">
-            <div className="flex items-center gap-2">
-              <Violin className="w-6 h-6 text-primary" />
-              <p className="text-foreground font-bold">Vídeo Partituras Premium para Violino</p>
-            </div>
-            <p className="text-muted-foreground text-sm">
-              © 2025 Vídeo Partituras Premium. Especialmente desenvolvido para violinistas.
-            </p>
-          </div>
+          <p className="text-muted-foreground">
+            © 2025 Vídeo Partituras Premium para Violino e Instrumentos em C. Todos os direitos reservados.
+          </p>
         </div>
       </footer>
     </div>
