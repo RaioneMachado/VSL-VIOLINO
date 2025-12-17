@@ -160,7 +160,7 @@ const Index = () => {
               </div>
               <div className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-2xl p-6 glow-blue">
                 <img
-                  src="https://videopartituras.com/wp-content/uploads/2025/01/IMG_5026-768x977.jpg"
+                  src="/depoimento 2"
                   alt="Depoimento de cliente"
                   className="w-full rounded-lg"
                 />
